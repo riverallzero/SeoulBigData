@@ -3,6 +3,9 @@ import json
 import os
 import geopandas as gpd
 
+import folium
+from folium.plugins import HeatMap
+
 
 # 1. 강서구 동별 인구데이터와 행정구역별 데이터를 바탕으로 데이터 병합
 def polulation_preprocess():
@@ -70,10 +73,42 @@ def polulation_preprocess():
 
     merged_data = pd.merge(map_data, df_dong, on="code")
     merged_data.to_csv(os.path.join(output_dir, "강서구_인구밀도데이터.csv"), index=False)
+    print(df_dong)
+
+
+def making_population_density():
+    output_dir = "Result/"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    df = pd.read_csv("Input/강서구_인구밀도데이터.csv")
+
+    geo_path = "Input/Gangseogu.geojson"
+
+    m = folium.Map(
+        location=[37.55, 126.84],
+        zoom_start=12,
+        tiles="CartoDB positron")
+    folium.Choropleth(
+        geo_data=geo_path,
+        name="Gangseogu",
+        data=df,
+        columns=["code", "values"],
+        key_on="feature.properties.code",
+        fill_color="YlOrRd",
+        fill_opacity=0.7,
+        line_opacity=0.4,
+        legend_name="Population(수)"
+    ).add_to(m)
+    HeatMap(df[["values", "code"]]).add_to(folium.FeatureGroup(name="Heat map").add_to(m))
+    folium.LayerControl().add_to(m)
+
+    m.save(os.path.join(output_dir, "Gangseogu_population.html"))
 
 
 def main():
-    polulation_preprocess()
+    # polulation_preprocess()
+    making_population_density()
 
 
 if __name__ == "__main__":
