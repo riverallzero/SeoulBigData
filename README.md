@@ -8,6 +8,13 @@
 - 강서구 동별 인구밀도 그래프
 <img width="356" alt="스크린샷 2023-03-10 오후 3 18 59" src="https://user-images.githubusercontent.com/93754504/224238896-bf7c6aab-5740-45aa-a34b-211faeae34e5.png">
 
+- 서울시 자치구별 주정차 단속 실적
+
+![image](https://user-images.githubusercontent.com/93760723/224326092-28004ea1-5f9c-4479-8020-71cf2fbe968e.png)
+
+![image](https://user-images.githubusercontent.com/93760723/224334142-b0309244-836b-4eb6-ac71-4f820c69e24f.png)
+
+
 ### 최적 입지 선정 사례 모음
 - File
   - [2021-002 강서구 소방 안전센터 최적 입지 선정(PPT).pdf](File%2F2021-002%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%86%8C%EB%B0%A9%20%EC%95%88%EC%A0%84%EC%84%BC%ED%84%B0%20%EC%B5%9C%EC%A0%81%20%EC%9E%85%EC%A7%80%20%EC%84%A0%EC%A0%95%28PPT%29.pdf)
