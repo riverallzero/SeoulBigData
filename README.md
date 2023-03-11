@@ -7,12 +7,6 @@
 ### 과정(결과)
 - [GoogleSlide](https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p)에 업로드
 
-- 서울시 자치구별 주정차 단속 실적
-
-![image](https://user-images.githubusercontent.com/93760723/224326092-28004ea1-5f9c-4479-8020-71cf2fbe968e.png)
-
-![image](https://user-images.githubusercontent.com/93760723/224334142-b0309244-836b-4eb6-ac71-4f820c69e24f.png)
-
 
 ### 최적 입지 선정 사례 모음
 - File
