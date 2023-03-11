@@ -5,6 +5,7 @@
 - 공영주차장 최적 입지 선정
 
 ### 과정(결과)
+- [GoogleSlide](https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p)에 업로드
 - 강서구 동별 인구밀도 그래프
 <img width="356" alt="스크린샷 2023-03-10 오후 3 18 59" src="https://user-images.githubusercontent.com/93754504/224238896-bf7c6aab-5740-45aa-a34b-211faeae34e5.png">
 
