@@ -17,5 +17,6 @@
   - [공공자전거 최적 입지 선정](https://wansook0316.github.io/cv/projects/2020/09/11/%EA%B3%A0%EC%96%91%EC%8B%9C-%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0-%EC%B5%9C%EC%A0%81-%EC%9E%85%EC%A7%80-%EC%84%A0%EC%A0%95-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-01-%EC%A0%84%EC%B2%98%EB%A6%AC.html)
   - [배달 노동자 간이 쉼터 최적 입지 선정](https://github.com/DonghyunAnn/Gbig-Hackathon)
   - [공영 주차장 추가 후보지역 선정을 위한 분석](https://dsz.kdata.or.kr/svc/page/application/data_analysis_parking.do)
+  - [광주시 빅데이터 분석 자료](https://www.gjcity.go.kr/bigdata/home/programs/ebook/list?menu=344#reload)
 - Paper
   - [휴리스틱 P-Median 알고리즘을 이용한 자전거주차장 최적입지선정](https://koreascience.kr/article/JAKO201330258587513.pdf)
