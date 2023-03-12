@@ -18,5 +18,8 @@
   - [배달 노동자 간이 쉼터 최적 입지 선정](https://github.com/DonghyunAnn/Gbig-Hackathon)
   - [공영 주차장 추가 후보지역 선정을 위한 분석](https://dsz.kdata.or.kr/svc/page/application/data_analysis_parking.do)
   - [광주시 빅데이터 분석 자료](https://www.gjcity.go.kr/bigdata/home/programs/ebook/list?menu=344#reload)
+    - [공공 와이파이 설치 최적지](https://www.gjcity.go.kr/bigdata/home/programs/ebook/oneView?itemKey=50&menu=344)
+    - [방범용 CCTV 우선설치지역](https://www.gjcity.go.kr/bigdata/home/programs/ebook/oneView?itemKey=53&menu=344)
+    - [전기차 충전소 입지선정](https://www.gjcity.go.kr/bigdata/home/programs/ebook/oneView?itemKey=60&menu=344)
 - Paper
   - [휴리스틱 P-Median 알고리즘을 이용한 자전거주차장 최적입지선정](https://koreascience.kr/article/JAKO201330258587513.pdf)
