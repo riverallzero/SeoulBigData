@@ -39,7 +39,7 @@ def draw_chart(output_dir, result_dir):
 
     plt.rcParams['font.family'] = 'NanumGothic'
     plt.figure(figsize=(20, 30))
-    plt.xlabel('자치구')
+    plt.ylabel('자치구')
     plt.xlabel('불법 주정차 단속 실적(건)')
 
     for year in range(2017, 2023):
