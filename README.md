@@ -21,5 +21,6 @@
     - [공공 와이파이 설치 최적지](https://www.gjcity.go.kr/bigdata/home/programs/ebook/oneView?itemKey=50&menu=344)
     - [방범용 CCTV 우선설치지역](https://www.gjcity.go.kr/bigdata/home/programs/ebook/oneView?itemKey=53&menu=344)
     - [전기차 충전소 입지선정](https://www.gjcity.go.kr/bigdata/home/programs/ebook/oneView?itemKey=60&menu=344)
+    - [스마트 버스정류장 우선 설치위치 선정](https://uos-urbanscience.org/wp-content/uploads/2021/05/29220918/%EA%B3%B5%EA%B0%84%EC%A0%95%EB%B3%B4%EC%A2%85%ED%95%A9%EC%84%A4%EA%B3%842_%ED%8C%90%EB%84%AC%EB%B0%9C%ED%91%9C_6%EC%A1%B0_%EA%B9%80%EB%AF%BC%EA%B2%B8%EB%B0%95%EC%B0%BD%EC%A3%BC%EC%95%88%EC%A7%84%ED%98%84.pdf)
 - Paper
   - [휴리스틱 P-Median 알고리즘을 이용한 자전거주차장 최적입지선정](https://koreascience.kr/article/JAKO201330258587513.pdf)
