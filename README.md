@@ -7,6 +7,8 @@
 ### 과정(결과)
 - [GoogleSlide](https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p)에 업로드
 
+### 참조(코드)
+- [Github 입지선정코드](https://github.com/DonghyunAnn/Gbig-Hackathon)
 
 ### 최적 입지 선정 사례 모음
 - File
