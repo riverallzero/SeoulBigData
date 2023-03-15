@@ -27,7 +27,7 @@ import numpy as np
 
 def main():
     output_dir = "../Output/"
-    result_dir = "../Result/grid"
+    result_dir = "../0_Del/Result/grid"
     if not os.path.exists(result_dir):
         os.makedirs(result_dir)
 

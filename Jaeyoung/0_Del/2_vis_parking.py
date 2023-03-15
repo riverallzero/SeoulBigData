@@ -61,7 +61,7 @@ def mapping_gangseo_public_parking(output_dir, result_dir, geo_path):
     m.save(os.path.join(result_dir, f"map_강서구_공영주차장_현황.html"))
 
 def draw_chart(output_dir, result_dir):
-    df = pd.read_csv(os.path.join(output_dir, "주차장_확보율.csv"))
+    df = pd.read_csv(os.path.join(output_dir, "Data/주차장_확보율.csv"))
     # print(df.sort_values('2022_자동차등록대수 (대)', ascending=False)['자치구'].unique())
     # print(df.sort_values('2022.1_주차면수 (면수)', ascending=False)['자치구'].unique())
     # print(df.sort_values('2022.2_주차장확보율 (%)', ascending=False)['자치구'].unique())
@@ -122,7 +122,7 @@ def draw_chart(output_dir, result_dir):
 
 def main():
     output_dir = "../Output/"
-    result_dir = "../Result/parking"
+    result_dir = "Result/parking"
     if not os.path.exists(result_dir):
         os.makedirs(result_dir)
 

@@ -34,7 +34,7 @@ def mapping(output_dir, result_dir):
 
 def draw_chart(output_dir, result_dir):
 
-    df = pd.read_csv(os.path.join(output_dir, "불법_주정차_단속_실적.csv"))
+    df = pd.read_csv(os.path.join(output_dir, "Data/불법_주정차_단속_실적.csv"))
     df.set_index(df['자치구'], inplace=True)
 
     plt.rcParams['font.family'] = 'NanumGothic'
@@ -71,7 +71,7 @@ def draw_chart(output_dir, result_dir):
 
 def main():
     output_dir = "../Output/"
-    result_dir = "../Result/enforcement"
+    result_dir = "Result/enforcement"
     if not os.path.exists(result_dir):
         os.makedirs(result_dir)
 
