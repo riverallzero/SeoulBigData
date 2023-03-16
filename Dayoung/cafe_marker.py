@@ -2,20 +2,14 @@ import pandas as pd
 import numpy as np
 
 import geopandas as gpd
-from geopy.geocoders import Nominatim
 
 from tqdm import tqdm
 
 import json
 import requests
-import re
 import os
 
 import folium
-from folium.plugins import HeatMap
-from streamlit_folium import folium_static
-
-import plotly.express as px
 
 
 def making_dataset():
@@ -128,10 +122,10 @@ def making_density():
 
 def main():
     # ------- 1. 도로명주소 & 지번주소를 이용한 좌표변환
-    # making_dataset()
+    making_dataset()
 
     # ------- 2. 카페 체인점
-    # cafe_chain()
+    cafe_chain()
 
     making_density()
 
