@@ -1,6 +1,8 @@
 from simpledbf import Dbf5
 import pandas as pd
 import numpy as np
+import geopandas as gpd
+import folium
 
 import os
 from sklearn.cluster import KMeans
@@ -48,7 +50,7 @@ def main():
 
 
     items = ["train", "park", "population", "cafe_chain", "cafe_common"]
-    _weights = [0.2, 0.1, 0.3, 0.4, 0.1] # 가중치
+    _weights = [0.2, 0.1, 0.2, 0.4, 0.3] # 가중치
     _points = [] # 위경도
     for item in items:
         df_ = df[["longitude", "latitude", item]].dropna().reset_index(drop=True)
@@ -70,6 +72,42 @@ def main():
     distances = np.linalg.norm(bins - weighted_mean, axis=1)
     trash_can_location = bins[np.argmin(distances)]
     print(f"가중 평균과 가장 가까운 클러스터의 중심점\n{trash_can_location}")
+
+    # 결과 위도, 경도
+    df_latng = pd.DataFrame()
+    lats = []
+    lngs = []
+    for b in bins:
+        lats.append(b[0])
+        lngs.append(b[1])
+    df_latng["lat"] = lats
+    df_latng["lng"] = lngs
+    df_latng["color"] = df_latng["lat"].apply(lambda x: "red")
+    print(df_latng)
+
+    # ----- Folium
+    geo_gangseo = gpd.read_file("Input/Gangseogu.geojson")
+    m = folium.Map([37.55, 126.83], tiles="CartoDB positron", zoom_start=12)
+
+    folium.GeoJson(geo_gangseo,
+                   name="json_data",
+                   style_function=lambda feature: {
+                       "fillColor": "gray",
+                       "color": "gray",
+                       "weight": 0,
+                       "fillOpacity": 0.2,
+                   }
+                   ).add_to(m)
+
+    for index, row in df_latng.iterrows():
+        folium.Marker(
+            location=[row["lng"], row["lat"]],
+            fill_color=row["color"],
+            color=row["color"],
+            radius=5
+        ).add_to(m)
+
+    m.save("Result/결과.html")
 
 
 if __name__ == "__main__":
