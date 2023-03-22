@@ -42,6 +42,15 @@ def park_shp(data_dir, output_dir):
     gdf = GeoDataFrame(df, crs="EPSG:4326", geometry=geometry)
     gdf.to_file(os.path.join(output_dir,"Gangseo_Park.shp"), encoding="cp949", driver='ESRI Shapefile')
 
+def busstop_shp(data_dir, output_dir):
+    df = pd.read_csv(os.path.join(data_dir, "서울시 정류장마스터 정보.csv"), encoding='cp949')
+    df = df[['정류장_명칭', '위도', '경도']]
+    df.columns = ['bus_name', 'bus_lat', 'bus_lon']
+    geometry =[Point(xy) for xy in zip(df.bus_lat, df.bus_lon)]
+    gdf = GeoDataFrame(df, crs="EPSG:4326", geometry=geometry)
+    gdf.to_file(os.path.join(output_dir, "Gangseo_BusStop.shp"), encoding="cp949", driver='ESRI Shapefile')
+
+
 def main():
     data_dir = "Data/"
 
@@ -52,6 +61,7 @@ def main():
     train_shp(data_dir, output_dir)
     cafe_shp(data_dir, output_dir)
     park_shp(data_dir, output_dir)
+    busstop_shp(data_dir, output_dir)
 
 if __name__ == '__main__':
     main()
