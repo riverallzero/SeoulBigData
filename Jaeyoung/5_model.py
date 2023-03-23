@@ -47,7 +47,7 @@ def preprocess_feature():
 def model_kmeans():
     df = preprocess_feature()
     items = ["train", "park", "population", "cafe_chain", "cafe_common", "bus"]
-    _weights = [0.2, 0.1, 0.2, 0.4, 0.3, 0.2]  # 가중치
+    _weights = [0.1, 0.1, 0.2, 0.3, 0.2, 0.1]  # 가중치
     _points = []  # 위경도
     for item in items:
         df_ = df[["longitude", "latitude", item]].dropna().reset_index(drop=True)
