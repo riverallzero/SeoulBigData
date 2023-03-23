@@ -1,5 +1,6 @@
 # 2023년도 서울 강서구 빅데이터 분석 공모전
 
+## 개요
 
 ### <공모 주제> 다회용 컵 반납·세척기 길거리 설치를 위한 최적 입지 선정
 - 사용 데이터
@@ -11,8 +12,9 @@
   - 빨간색 -> 확대 운영 입지
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/93754504/227243063-f2cdbb23-0240-4d47-a73d-3230e0da548a.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/93754504/227248821-73f93f10-977f-498d-9c46-d40787b4d76b.png">
 
-
+## 참고
 
 ### 과정(결과)
 - [GoogleSlide](https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p)에 업로드
