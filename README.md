@@ -17,7 +17,7 @@
 
 ### 코드
 - [Gangseogu](Gangseogu) 폴더
-  - model.py 실행
+  - [model.py](Gangseogu%2Fmodel.py) 실행
   ```python
       # 1. Csv data to .shp file
       shp_create = ShpfileCreate(data_dir, output_dir)
