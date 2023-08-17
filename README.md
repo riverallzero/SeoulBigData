@@ -1,7 +1,6 @@
 # 2023년도 서울 강서구 빅데이터 분석 공모전
 
 ## 강서구 분석 개요
-<hr/>
 
 ### <공모 주제> 다회용 컵 반납·세척기 길거리 설치를 위한 최적 입지 선정
 - 사용 데이터
@@ -33,8 +32,6 @@
       create_shp(output_dir)
       print(f"{'*'*10} [Done] {'*'*10} \n Modeling(Check Result/)")
   ```
-
-<hr/>
 
 ### 과정(결과)
 - [GoogleSlide](https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p) 참고
