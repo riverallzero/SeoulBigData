@@ -34,4 +34,4 @@
   ```
 
 ### 과정(결과)
-- [GoogleSlide](https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p) 참고
+- [분석보고서]([https://docs.google.com/presentation/d/1QrfQfxlSvGKBj0OZ7W1DnwcpXbk3RbFuQgvQMP7QbZo/edit#slide=id.p](https://github.com/riverallzero/SeoulBigData/blob/main/reports.pdf)https://github.com/riverallzero/SeoulBigData/blob/main/reports.pdf) 참고
